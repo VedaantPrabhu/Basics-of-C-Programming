@@ -1,0 +1,11 @@
+// scanf is used so that a user can enter a value.
+
+#include<stdio.h>
+int main()
+{
+int a;
+printf("Enter your age: ");
+scanf("%d",&a);
+printf("hello your age is:\n",a);
+return 0;
+}
