@@ -8,17 +8,17 @@ printf("Enter the number b:");
 scanf("%d",&b);
 printf("Enter the number c:");
 scanf("%d",&c);
-if  (a>=b,a>=c)
+if  (a>=b && a>=c)
 {
-printf("the largest number is",a);
+printf("the largest number is %d",a);
 }
-else if (b>=a,b>=c);
+else if (b>=a && b>=c)
 {
-printf("the largest number is",b);
+printf("the largest number is %d",b);
 }
 else 
 {
-printf("the largest number is",c);
+printf("the largest number is %d",c);
 }
 return 0;
 }
