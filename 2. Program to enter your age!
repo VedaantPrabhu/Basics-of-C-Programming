@@ -6,6 +6,6 @@ int main()
 int a;
 printf("Enter your age: ");
 scanf("%d",&a);
-printf("hello your age is:\n",a);
+printf("hello your age is:\n %d",a);
 return 0;
 }
